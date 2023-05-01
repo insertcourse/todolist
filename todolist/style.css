@@ -46,7 +46,7 @@ body{
     border-radius: 5px;
 }
 
-.inputForm button{
+.inputForm--button{
     width: 50px;
 	font-size: 25px;
     height: 100%;
