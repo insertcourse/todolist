@@ -3,3 +3,56 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+
+body{
+	background-color: #F8E0EC;
+}
+#toDoList{
+	background-color: white;
+	margin: 150px auto 0 auto;
+	width: 800px;
+} 
+.toDoList--text{
+	font-style: 'OAGothic-ExtraBold';
+	margin-bottom: 30px;
+	font-weight: bold;
+	font-size: 60px;
+	display: flex;
+	justify-content: center;
+}
+@font-face {
+    font-family: 'OAGothic-ExtraBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/OAGothic-ExtraBold.woff2') format('woff2');
+    font-weight: 800;
+    font-style: normal;
+}
+.toDoList--img{
+	width: 60px;
+}
+.inputForm{
+	display: flex;
+	justify-content: center;
+	margin: 0 0 0 45px;
+}
+
+.inputForm input{
+	display: flex;
+	justify-content: center;
+    padding-left: 15px;
+    width: 600px;
+    height: 100%;
+    border: none;
+    font-size: 25px;
+    border-radius: 5px;
+}
+
+.inputForm button{
+    width: 50px;
+	font-size: 25px;
+    height: 100%;
+	border: none;
+	margin-left: 5px;
+    border-radius: 3px;
+    background: rgb(240, 168, 168);
+    cursor: pointer;
+}
