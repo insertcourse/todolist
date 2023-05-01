@@ -18,6 +18,8 @@
 
 // alert(`${first}${second}${third}는 ${result}입니다.`);
 
+
+
 //2단계
 // function input() {
 
@@ -50,25 +52,66 @@
 
 // calculate();
 
+
+
+
+
 //3단계
-function getInput() {
+// function getInput() {
+//     const input = {
+//         first: parseInt(prompt("첫번째 값을 입력하세요.")),
+//         second: prompt("연산자를 입력하세요 (+, -, *, /, % 중 하나)"),
+//         third: parseInt(prompt("두번째 값을 입력하세요."))
+//     };
+//     return input;
+// }
+
+// function calculate(input) {
+//     let result;
+    
+//     if (input.second === "+") {
+//         result = input.first + input.third;
+//     } else if (input.second === "-") {
+//         result = input.first - input.third;
+//     } else if (input.second === "*") {
+//       result = input.first * input.third;
+//     } else if (input.second === "/") {
+//         result = input.first / input.third;
+//     } else if (input.second === "%") {
+//         result = input.first % input.third;
+//         return;
+//     }
+
+//     return result;
+//     }
+    
+//     const input = getInput();
+//     const result = calculate(input);
+
+//     if (result !== undefined) {//값이 있는 경우에만 실행.
+//     alert(`${input.first} ${input.second} ${input.third}는 ${result}입니다.`);
+//     }
+
+
+//4단계
+const getInput = () => {
     const input = {
         first: parseInt(prompt("첫번째 값을 입력하세요.")),
         second: prompt("연산자를 입력하세요 (+, -, *, /, % 중 하나)"),
         third: parseInt(prompt("두번째 값을 입력하세요."))
     };
     return input;
-}
+};
 
-function calculate(input) {
+const calculate = (input) => {
     let result;
-    
+
     if (input.second === "+") {
         result = input.first + input.third;
     } else if (input.second === "-") {
         result = input.first - input.third;
     } else if (input.second === "*") {
-      result = input.first * input.third;
+        result = input.first * input.third;
     } else if (input.second === "/") {
         result = input.first / input.third;
     } else if (input.second === "%") {
@@ -77,11 +120,11 @@ function calculate(input) {
     }
 
     return result;
-    }
-    
+    };
+
     const input = getInput();
     const result = calculate(input);
 
-    if (result !== undefined) {//값이 있는 경우에만 실행.
+    if (result !== undefined) {
     alert(`${input.first} ${input.second} ${input.third}는 ${result}입니다.`);
     }
