@@ -43,7 +43,7 @@ function noodle(input)  { //prophecy는 input의 입력에 따라 price,result�
     return { price, result };
 }
 
-const { price, result } = noodle(input);//prophecy함수에서 받은 값을 price와 result에 저장한다는 의미.
+const { price, result } = noodle(input);//구조분해할당. 변수를 그대로(?) 꺼내서 쓸 수 있음.
 
 result === 0 && alert('주문 취소됐습니당..'); 
 (result < 0) ? alert('한도 초과입니다!!!!') : alert(`${input.kind}은 ${price}원이므로 ${result}원이 거스름돈입니다.`); //삼항 연산자
