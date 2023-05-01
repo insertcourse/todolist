@@ -6,7 +6,7 @@ const input = {
     money: parseInt(prompt('가지고계신 돈을 적어주세요. (ex. 5000원)'))
 }; //object로 입력받기
 
-function prophecy(input)  { //prophecy는 input의 입력에 따라 price,result를 계산 한다는 의미.
+function noodle(input)  { //prophecy는 input의 입력에 따라 price,result를 계산 한다는 의미.
     let price;
     let result;
     
@@ -43,7 +43,7 @@ function prophecy(input)  { //prophecy는 input의 입력에 따라 price,result
     return { price, result };
 }
 
-const { price, result } = prophecy(input);//prophecy함수에서 받은 값을 price와 result에 저장한다는 의미.
+const { price, result } = noodle(input);//prophecy함수에서 받은 값을 price와 result에 저장한다는 의미.
 
 result === 0 && alert('주문 취소됐습니당..'); 
 (result < 0) ? alert('한도 초과입니다!!!!') : alert(`${input.kind}은 ${price}원이므로 ${result}원이 거스름돈입니다.`); //삼항 연산자
