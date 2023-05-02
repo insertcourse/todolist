@@ -1,6 +1,6 @@
 // 화이팅 
 //화이팅팅
-const button = document.getElementById('inputForm--button');
-let inputForm = document.getElementById('inputForm--add'); 
-let result = document.getElementById('addToDo--text');
+const button = document.getElementsByClassName('inputForm--button');
+let inputForm = document.getElementsByClassName('inputForm--add'); 
+let result = document.getElementsByClassName('addToDo--text');
 
