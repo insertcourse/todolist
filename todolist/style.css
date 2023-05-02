@@ -9,7 +9,7 @@ body{
     width: 100%;
 	background-color: #F8E0EC;
 }
-#toDoList{
+#container{
 	background-color: white;
 	margin: 120px auto;
     max-width: 700px;
@@ -17,7 +17,7 @@ body{
     padding: 25px;
     border-radius: 15px;
 } 
-.toDoList--text{
+#container header{
 	font-style: 'OAGothic-ExtraBold';
 	margin-bottom: 30px;
 	font-weight: bold;
@@ -51,7 +51,7 @@ body{
     border-radius: 5px;
 }
 
-.inputForm--button{
+.inputForm button{
     width: 50px;
 	font-size: 25px;
     height: 100%;
@@ -61,10 +61,12 @@ body{
     background: rgb(240, 168, 168);
     cursor: pointer;
 }
-ul{
-	list-style: none;
+#container .Todolist{
+    display: flex;
 }
-li{
+
+.Todolist li{
+    list-style:none;
     width: 650px;
     line-height: 40px; 
     margin-bottom: 9px;
@@ -74,7 +76,7 @@ li{
     font-weight: 400;
     cursor: pointer;
 }
-.footer{
+#container .footer{
     font-weight: 600;
     text-indent: 15px;
     display: flex;

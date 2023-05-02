@@ -5,27 +5,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="./style.css" rel="stylesheet">
     <title>투두리스트</title>
-
+    <link href="./style.css" rel="stylesheet" />
 </head>
 
 <body>
-    <div id="toDoList">
-        <header class="toDoList--text"><img class="toDoList--img" src="./img/검정하트-removebg-preview.png"/>  To Do List  <img class="toDoList--img" src="./img/검정하트-removebg-preview.png"/></header>
+    <div id="container">
+        <header><img class="toDoList--img" src="./img/검정하트-removebg-preview.png"/>  To Do List  <img class="toDoList--img" src="./img/검정하트-removebg-preview.png"/></header>
         <div class="inputForm">
-            <input type="text" id="inputForm--add" placeholder="할 일 추가하기" autofocus/>
-            <button type="button" class="inputForm--button">+</button>
+            <input type="text" id="inputForm--add" placeholder="할 일 추가하기"/>
+            <button type="button" id="inputForm--button">+</button>
         </div>
         <div>
-        <ul id="addToDo" class="Todolist"> 
-            <li><div id='addToDo--text'></div></li>
+        <ul id="addTodo" class="Todolist"> 
+            <li><div id='addTodo--text'></div></li>
         </ul>
         </div>
         <div class="footer">
-            <button type="button" id = "delete">모두 삭제</button>
+            <button type="button" id = "delete" onclick="allClearList()">모두 삭제</button>
         </div>
     </div>
+    
 </body>
 <script src="script.js"></script>
 </html>
