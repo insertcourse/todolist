@@ -5,20 +5,24 @@
 }
 
 body{
+    height: 100vh;
+    width: 100%;
 	background-color: #F8E0EC;
 }
 #toDoList{
 	background-color: white;
-	margin: 150px auto 0 auto;
-	width: 800px;
+	margin: 120px auto;
+    max-width: 700px;
+    width: 100%;
+    padding: 25px;
+    border-radius: 15px;
 } 
 .toDoList--text{
 	font-style: 'OAGothic-ExtraBold';
 	margin-bottom: 30px;
 	font-weight: bold;
 	font-size: 60px;
-	display: flex;
-	justify-content: center;
+	text-align: center;
 }
 @font-face {
     font-family: 'OAGothic-ExtraBold';
@@ -26,6 +30,7 @@ body{
     font-weight: 800;
     font-style: normal;
 }
+
 .toDoList--img{
 	width: 60px;
 }
@@ -59,7 +64,7 @@ body{
 ul{
 	list-style: none;
 }
-.list--text{
+li{
     width: 650px;
     line-height: 40px; 
     margin-bottom: 9px;
@@ -68,4 +73,24 @@ ul{
     border-radius: 3px;
     font-weight: 400;
     cursor: pointer;
+}
+.footer{
+    font-weight: 600;
+    text-indent: 15px;
+    display: flex;
+    width: 100%;
+    margin-top: 30px;
+    justify-content: right;/*flex때문에 써준다*/
+}
+.footer button{
+    color:rgb(240, 168, 168);
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: 900;
+    padding: 6px 10px;
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 9px;
+    background: rgb(6, 6, 6);
 }
