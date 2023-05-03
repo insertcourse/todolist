@@ -40,3 +40,46 @@
 }
 
 
+/*section*/
+#section{
+	margin-left: 40px;
+}
+ul{
+	padding: 30px;
+}
+.box{
+	margin-top: 20px;
+}
+.Monday{
+	color: red;
+	font-weight: bold;
+}
+.Tuesday{
+	color: orange;
+	font-weight: bold;
+}
+.Wednesday{
+	color: rgba(255, 255, 0, 0.441);
+	font-weight: bold;
+}
+.Thursday{
+	color: green;
+	font-weight: bold;
+}
+.Friday{
+	color: blue;
+	font-weight: bold;
+}
+.Saturday{
+	color: purple;
+	font-weight: bold;
+}
+.Sunday{
+	color: pink;
+	font-weight: bold;
+}
+#day{
+	width: 600px;
+}
+
+
