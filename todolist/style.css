@@ -3,3 +3,23 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+#container{
+    width: 1200px;
+    margin: 20px auto;
+}
+
+/*header*/
+#header{
+    width: 100%;
+    height: 120px;
+    background-color: rgb(74, 18, 255);
+}
+.title{
+	margin-left: 450px;
+	color: white;
+}
+.exp{ /*explanation : 설명*/
+	color: bisque;
+	margin-left: 435px;
+}
+
