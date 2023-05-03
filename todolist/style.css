@@ -23,3 +23,20 @@
 	margin-left: 435px;
 }
 
+
+/*nav*/
+#nav{
+	background-color: aqua;
+}
+.cheer--massage{
+	margin-top: 20px;
+	margin-left: 20px;
+}
+.input--massage{
+	font-weight: bold;
+}
+.cheer{
+	color: gray;
+}
+
+
