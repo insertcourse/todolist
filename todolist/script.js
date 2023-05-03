@@ -15,6 +15,11 @@ function addTodo(){
     add.value = "";     //입력창 초기화!!
 }
 }
+function enterkey() {
+    if (event.keyCode == 13) {
+        addTodo(); //enter 키 눌렀을 때 addTodo 함수 실행
+    }
+}
 
 function allClearList(){
         result.innerText='';                 

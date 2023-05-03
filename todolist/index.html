@@ -13,11 +13,11 @@
     <div id="container">
         <header><img class="img" src="./img/검정하트-removebg-preview.png"/>  To Do List  <img class="img" src="./img/검정하트-removebg-preview.png"/></header>
         <div class="inputForm">
-            <input type="text" id="inputForm--add" placeholder="할 일 추가하기"/>
+            <input onkeyup="enterkey(); "type="text" id="inputForm--add" placeholder="할 일 추가하기"/>
             <button type="button" id="inputForm--button">+</button>
         </div>
         <div>
-        <ul id="addTodo"> 
+        <ul id="addTodo--ul"> 
             <li><div id='addTodo--text'></div></li>
         </ul>
         </div>
