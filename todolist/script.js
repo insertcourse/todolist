@@ -3,7 +3,7 @@
 const button = document.getElementById('inputForm--button'); //+버튼
 let add = document.getElementById('inputForm--add'); //todolist추가
 let remove = document.getElementById('delete'); //모두삭제
-let reset = document.getElementById('addTodo--text') //입력 창 
+let result = document.getElementById('addTodo--text') //입력 창 
 
 function addTodo(){
     if(add.value==false){ //value = input에서 입력 값을 가져올 때 사용하는 것!!!!!!
@@ -17,7 +17,7 @@ function addTodo(){
 }
 
 function allClearList(){
-        reset.innerText='';                 
+        result.innerText='';                 
 }
 
 button.addEventListener('click', addTodo);
