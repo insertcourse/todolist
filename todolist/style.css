@@ -78,7 +78,7 @@ li{
     cursor: pointer;
     border-radius: 10;
 }
-#container .footer{
+.footer{
     font-weight: 600;
     text-indent: 15px;
     display: flex;
