@@ -14,3 +14,15 @@ function onclick(){
 CheerMassage.addEventListener("click", onclick);
 
 
+//월요일 계획
+const DayMassage1 = document.querySelector(".day1--massage");
+function onclick(){
+    const change = prompt("월요일 계획을 써주세요!");
+
+    if(change==""){
+        alert("입력되지 않았어요ㅜㅜ 다시 돌아가세요");
+    }else{
+        DayMassage1.innerHTML=change;
+    }
+}
+DayMassage1.addEventListener("click", onclick);
