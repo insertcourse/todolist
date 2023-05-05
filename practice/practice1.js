@@ -1,53 +1,52 @@
 // mission 1
-// const first = parseInt(prompt("계산할 첫 번째 값 입력:"));
-// const second = prompt("계산할 부호 입력 (+, -, *, /, %):");
-// const third = parseInt(prompt("계산할 두 번째 값 입력:"));
-// let  result;
+// const value1 = parseInt(prompt("계산할 첫 번째 값 입력:"));
+// const sign = prompt("계산할 부호 입력 (+, -, *, /, %):");
+// const value2 = parseInt(prompt("계산할 두 번째 값 입력:"));
+// let result;
 
-// if (second === "+") {
-//     result = first + third;
-// } else if (second=== "-") {
-//     result = first - third;
-// } else if (second === "*") {
-//     result = first * third;
-// } else if (second === "/") {
-//     result = first / third;
-// } else if (second === "%") {
-//     result = first % third;
+// if (sign === "+") {
+//     result = value1 + value2;
+// } else if (sign=== "-") {
+//     result = value1 - value2;
+// } else if (sign === "*") {
+//     result = value1 * value2;
+// } else if (sign === "/") {
+//     result = value1 / value2;
+// } else if (sign === "%") {
+//     result = value1 % value2;
 // }
 
-// alert(`${first}${second}${third}는 ${result}입니다.`);
+// alert(`${value1}${sign}${value2}는 ${result}입니다.`);
 
 
 
 //2단계
 // function input() {
 
-//     const first = parseInt(prompt("계산할 첫 번째 값 입력:"));
-//     const second = prompt("계산할 부호 입력 (+, -, *, /, %):");
-//     const third = parseInt(prompt("계산할 두 번째 값 입력:"));
-    
-//     return [first, operator, second]; //이것을 해주지 않으면 input함수가 끝나면서 값이 소멸함.(구글링햇습니다..)
+// const value1 = parseInt(prompt("계산할 첫 번째 값 입력:"));
+// const sign = prompt("계산할 부호 입력 (+, -, *, /, %):");
+// const value2 = parseInt(prompt("계산할 두 번째 값 입력:"));
+
+//     return [value1, sing, value2]; //이것을 해주지 않으면 input함수가 끝나면서 값이 소멸함.(구글링햇습니다..)
 // }
 
-// function calculate(first, second, third) {
+// function calculate(value1, sign, value2) {
 //     let result;
     
 
-//     if (second === "+") {
-//         result = first + third;
-//     } else if (second === "-") {
-//         result = first - third;
-//     } else if (second === "*") {
-//         result = first * third;
-//     } else if (second === "/") {
-//         result = first / third;
-//     } else if (second === "%") {
-//         result = first % third;
-//         return;
-//     }
+// if (sign === "+") {
+//     result = value1 + value2;
+// } else if (sign=== "-") {
+//     result = value1 - value2;
+// } else if (sign === "*") {
+//     result = value1 * value2;
+// } else if (sign === "/") {
+//     result = value1 / value2;
+// } else if (sign === "%") {
+//     result = value1 % value2;
+// }
 
-//     alert(`${first}${second}${third}는 ${result}입니다.`);
+// alert(`${value1}${sign}${value2}는 ${result}입니다.`);
 // }
 
 // calculate();
@@ -59,29 +58,26 @@
 //3단계
 // function getInput() {
 //     const input = {
-//         first: parseInt(prompt("첫번째 값을 입력하세요.")),
-//         second: prompt("연산자를 입력하세요 (+, -, *, /, % 중 하나)"),
-//         third: parseInt(prompt("두번째 값을 입력하세요."))
-//     };
-//     return input;
+//          value1 = parseInt(prompt("계산할 첫 번째 값 입력:"));
+//          sign = prompt("계산할 부호 입력 (+, -, *, /, %):");
+//          value2 = parseInt(prompt("계산할 두 번째 값 입력:"));
+//          return input;
 // }
 
 // function calculate(input) {
 //     let result;
     
-//     if (input.second === "+") {
-//         result = input.first + input.third;
-//     } else if (input.second === "-") {
-//         result = input.first - input.third;
-//     } else if (input.second === "*") {
-//       result = input.first * input.third;
-//     } else if (input.second === "/") {
-//         result = input.first / input.third;
-//     } else if (input.second === "%") {
-//         result = input.first % input.third;
-//         return;
+//     if (input.sign === "+") {
+//         result = input.value1 + input.value2;
+//     } else if (input.sign === "-") {
+//         result = input.value1 - input.value2;
+//     } else if (input.sign === "*") {
+//       result = input.value1 * input.value2;
+//     } else if (input.sign === "/") {
+//         result = input.value1 / input.value2;
+//     } else if (input.sign === "%") {
+//         result = input.value1 % input.value2;
 //     }
-
 //     return result;
 //     }
     
@@ -96,9 +92,9 @@
 //4단계
 const getInput = () => {
     const input = {
-        first: parseInt(prompt("첫번째 값을 입력하세요.")),
-        second: prompt("연산자를 입력하세요 (+, -, *, /, % 중 하나)"),
-        third: parseInt(prompt("두번째 값을 입력하세요."))
+        value1: parseInt(prompt("첫번째 값을 입력하세요.")),
+        sign: prompt("연산자를 입력하세요 (+, -, *, /, % 중 하나)"),
+        value2: parseInt(prompt("두번째 값을 입력하세요."))
     };
     return input;
 };
@@ -106,16 +102,16 @@ const getInput = () => {
 const calculate = (input) => {
     let result;
 
-    if (input.second === "+") {
-        result = input.first + input.third;
-    } else if (input.second === "-") {
-        result = input.first - input.third;
-    } else if (input.second === "*") {
-        result = input.first * input.third;
-    } else if (input.second === "/") {
-        result = input.first / input.third;
-    } else if (input.second === "%") {
-        result = input.first % input.third;
+    if (input.sign === "+") {
+        result = input.value1 + input.value2;
+    } else if (input.sign === "-") {
+        result = input.value1 - input.value2;
+    } else if (input.sign === "*") {
+        result = input.value1 * input.value2;
+    } else if (input.sign === "/") {
+        result = input.value1 / input.value2;
+    } else if (input.sign === "%") {
+        result = input.value1 % input.value2;
         return;
     }
 
@@ -126,5 +122,5 @@ const calculate = (input) => {
     const result = calculate(input);
 
     if (result !== undefined) {
-    alert(`${input.first} ${input.second} ${input.third}는 ${result}입니다.`);
+    alert(`${input.value1} ${input.sign} ${input.value2}는 ${result}입니다.`);
     }
