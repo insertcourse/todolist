@@ -2,7 +2,7 @@
 // const first = parseInt(prompt("계산할 첫 번째 값 입력:"));
 // const second = prompt("계산할 부호 입력 (+, -, *, /, %):");
 // const third = parseInt(prompt("계산할 두 번째 값 입력:"));
-// let = result;
+// let  result;
 
 // if (second === "+") {
 //     result = first + third;
@@ -10,9 +10,9 @@
 //     result = first - third;
 // } else if (second === "*") {
 //     result = first * third;
-// } else if (operator === "/") {
+// } else if (second === "/") {
 //     result = first / third;
-// } else if (operator === "%") {
+// } else if (second === "%") {
 //     result = first % third;
 // }
 

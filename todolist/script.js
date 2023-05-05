@@ -40,7 +40,7 @@ function deleteList(e){ //삭제 버튼(x) 클릭시
 }
 
 function allClearList(){
-        result.innerText='';  //할 일 입력햇을 때 입력창 초기화하기     
+        result.innerText='';  //할 일 입력햇을 때 입력창 초기화하기ㅇ     
 }
 
 button.addEventListener('click', addTodo);
