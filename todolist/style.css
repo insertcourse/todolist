@@ -40,46 +40,83 @@
 }
 
 
-/*section*/
-#section{
+/*center*/
+#center{
 	margin-left: 40px;
+}
+.section1{
+	float: left;
 }
 ul{
 	padding: 30px;
 }
 .box{
-	margin-top: 20px;
+	margin-top: 20px; 	
 }
 .Monday{
 	color: red;
 	font-weight: bold;
+	background-color: ivory;
+	text-align: center;
 }
 .Tuesday{
 	color: orange;
 	font-weight: bold;
+	background-color: ivory;
+	text-align: center;
 }
 .Wednesday{
-	color: rgba(255, 255, 0, 0.441);
+	color: yellow;
 	font-weight: bold;
+	background-color: ivory;
+	text-align: center;
 }
 .Thursday{
 	color: green;
 	font-weight: bold;
+	background-color: ivory;
+	text-align: center;
 }
 .Friday{
 	color: blue;
 	font-weight: bold;
+	background-color: ivory;
+	text-align: center;
 }
 .Saturday{
 	color: purple;
 	font-weight: bold;
+	background-color: ivory;
+	text-align: center;
 }
 .Sunday{
 	color: pink;
 	font-weight: bold;
+	background-color: ivory;
+	text-align: center;
 }
 #day{
 	width: 600px;
+}
+
+.section2{
+	float: right;
+	display: block;
+	background-color: aquamarine;
+	margin-top: 70px;
+	margin-right: 40px;
+}
+.ach{
+	margin-right: 90px;
+	margin-top: 10px;
+}
+.ach--tittle{
+	text-align: center;
+	font-weight: bold;
+	font-size: 18px;
+}
+li{
+	margin: 20px;
 }
 
 
