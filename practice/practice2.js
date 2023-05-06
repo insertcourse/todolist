@@ -9,7 +9,7 @@ if(input1 === input2){ //strict Equal Operator
 }
 else if(input1.length == 0){
   //if(!input1.length) 와 if(!input) 가능
-   alert('오잉? 입력되지 않았네요ㅜㅜ')
+  alert('오잉? 입력되지 않았네요ㅜㅜ')
 }
 else if(input1 > input2){
   alert('1이 나이가 더 많네요!')
