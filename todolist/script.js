@@ -16,7 +16,7 @@ CheerMassage.addEventListener("click", onclick);
 
 //월요일 계획
 const DayMassage1 = document.querySelector(".Day1Massage");
-function onclick(){
+function onClickAddTodoMonday(){
     const change = prompt("월요일 계획을 써주세요!");
 
     if(!change){
@@ -25,12 +25,16 @@ function onclick(){
         DayMassage1.innerHTML=change;
     }
 }
-DayMassage1.addEventListener("click", onclick);
+DayMassage1.addEventListener("click", onClickAddTodoMonday);
+
+function MD(){
+    document.getElementById("DayMassage1").value='';
+}
 
 
 //화요일 계획
 const DayMassage2 = document.querySelector(".Day2Massage");
-function onclick(){
+function onClickAddTodoTuesday(){
     const change = prompt("화요일 계획을 써주세요!");
 
     if(!change){
@@ -39,12 +43,16 @@ function onclick(){
         DayMassage2.innerHTML=change;
     }
 }
-DayMassage2.addEventListener("click", onclick);
+DayMassage2.addEventListener("click", onClickAddTodoTuesday);
+
+function TuD(){
+    document.getElementById("DayMassage2").value='';
+}
 
 
 //수요일 계획
 const DayMassage3 = document.querySelector(".Day3Massage");
-function onclick(){
+function onClickAddTodoWednsday(){
     const change = prompt("수요일 계획을 써주세요!");
 
     if(!change){
@@ -53,12 +61,16 @@ function onclick(){
         DayMassage3.innerHTML=change;
     }
 }
-DayMassage3.addEventListener("click", onclick);
+DayMassage3.addEventListener("click", onClickAddTodoWednsday);
+
+function WD(){
+    document.getElementById("DayMassage2").value='';
+}
 
 
 //목요일 계획
 const DayMassage4 = document.querySelector(".Day4Massage");
-function onclick(){
+function onClickAddTodoThursday(){
     const change = prompt("목요일 계획을 써주세요!");
 
     if(!change){
@@ -67,12 +79,16 @@ function onclick(){
         DayMassage4.innerHTML=change;
     }
 }
-DayMassage4.addEventListener("click", onclick);
+DayMassage4.addEventListener("click", onClickAddTodoThursday);
+
+function ThD(){
+    document.getElementById("DayMassage2").value='';
+}
 
 
 //금요일 계획
 const DayMassage5 = document.querySelector(".Day5Massage");
-function onclick(){
+function onClickAddTodoFriday(){
     const change = prompt("금요일 계획을 써주세요!");
 
     if(!change){
@@ -81,12 +97,16 @@ function onclick(){
         DayMassage5.innerHTML=change;
     }
 }
-DayMassage5.addEventListener("click", onclick);
+DayMassage5.addEventListener("click", onClickAddTodoFriday);
+
+function FD(){
+    document.getElementById("DayMassage2").value='';
+}
 
 
 //토요일 계획
 const DayMassage6 = document.querySelector(".Day6Massage");
-function onclick(){
+function onClickAddTodoSaturday(){
     const change = prompt("토요일 계획을 써주세요!");
 
     if(!change){
@@ -95,12 +115,16 @@ function onclick(){
         DayMassage6.innerHTML=change;
     }
 }
-DayMassage6.addEventListener("click", onclick);
+DayMassage6.addEventListener("click", onClickAddTodoSaturday);
+
+function SaD(){
+    document.getElementById("DayMassage2").value='';
+}
 
 
 //일요일 계획
 const DayMassage7 = document.querySelector(".Day7Massage");
-function onclick(){
+function onClickAddTodoSunday(){
     const change = prompt("일요일 계획을 써주세요!");
 
     if(!change){
@@ -109,4 +133,8 @@ function onclick(){
         DayMassage7.innerHTML=change;
     }
 }
-DayMassage7.addEventListener("click", onclick);
+DayMassage7.addEventListener("click", onClickAddTodoSunday);
+
+function SuD(){
+    document.getElementById("DayMassage2").value='';
+}
