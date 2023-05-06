@@ -15,14 +15,8 @@ function addTodo(){
         result.appendChild(list);
         list.appendChild(del);       
         del.innerText = "x";      
-        del.style.fontSize = "20px"; //js에서 스타일 지정
-        del.style.border = "none";
-        del.style.float = "right";
-        del.style.right = "17px";
-        del.style.margin = "8px 10px 0 0";
-        del.style.cursor = "pointer";
+        del.style = "font-size: 20px; border: none; float: right; right: 17px; margin: 8px 10px 0 0; cursor: pointer;"
         del.addEventListener("click", deleteList); 
-
         add.value = ""; //초기화
 
 }
