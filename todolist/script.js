@@ -6,7 +6,7 @@ let remove = document.getElementById('delete'); //모두삭제
 let result = document.getElementById('addTodo--text') //입력 창 
 
 function addTodo(){
-    if(add.value==false){ //value = input에서 입력 값을 가져올 때 사용하는 것!!!!!!
+    if(!add.value){ //value = input에서 입력 값을 가져올 때 사용하는 것!!!!!!
         alert('내용을 입력하세요!');
     }else{
         let list = document.createElement("li");
