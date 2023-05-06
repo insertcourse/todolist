@@ -75,7 +75,8 @@ ul{
 }
 
 li{
-    list-style:none;
+    display: flex;
+    list-style: none;
     width: 650px;
     line-height: 40px; 
     text-indent: 15px; 

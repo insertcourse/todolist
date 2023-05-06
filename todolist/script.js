@@ -15,7 +15,7 @@ function addTodo(){
         result.appendChild(list);
         list.appendChild(del);       
         del.innerText = "x";      
-        del.style = "font-size: 20px; border: none; float: right; right: 17px; margin: 8px 10px 0 0; cursor: pointer;"
+        del.style = "font-size: 20px; border: none; display: flex; margin: 8px 10px 0 auto; cursor: pointer;"
         del.addEventListener("click", deleteList); 
         add.value = ""; //초기화
 
@@ -39,7 +39,3 @@ function allClearList(){
 
 button.addEventListener('click', addTodo);
 remove.addEventListener('click', allClearList);
-
-
-
-
