@@ -41,7 +41,7 @@ header{
 .inputForm{
     display: flex;
     justify-content: center;
-    margin: 0 0 0 45px;
+    margin-left: 45px;
 }
 
 input{
