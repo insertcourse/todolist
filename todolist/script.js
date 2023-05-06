@@ -64,7 +64,7 @@ function onClickAddTodoWednsday(){
 DayMassage3.addEventListener("click", onClickAddTodoWednsday);
 
 function WD(){
-    document.getElementById("DayMassage2").value='';
+    document.getElementById("DayMassage3").value='';
 }
 
 
@@ -82,7 +82,7 @@ function onClickAddTodoThursday(){
 DayMassage4.addEventListener("click", onClickAddTodoThursday);
 
 function ThD(){
-    document.getElementById("DayMassage2").value='';
+    document.getElementById("DayMassage4").value='';
 }
 
 
@@ -100,7 +100,7 @@ function onClickAddTodoFriday(){
 DayMassage5.addEventListener("click", onClickAddTodoFriday);
 
 function FD(){
-    document.getElementById("DayMassage2").value='';
+    document.getElementById("DayMassage5").value='';
 }
 
 
@@ -118,7 +118,7 @@ function onClickAddTodoSaturday(){
 DayMassage6.addEventListener("click", onClickAddTodoSaturday);
 
 function SaD(){
-    document.getElementById("DayMassage2").value='';
+    document.getElementById("DayMassage6").value='';
 }
 
 
@@ -136,5 +136,5 @@ function onClickAddTodoSunday(){
 DayMassage7.addEventListener("click", onClickAddTodoSunday);
 
 function SuD(){
-    document.getElementById("DayMassage2").value='';
+    document.getElementById("DayMassage7").value='';
 }
