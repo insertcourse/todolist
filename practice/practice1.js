@@ -1,8 +1,8 @@
 // mission 1
 //1단계 - 계산기 만들기
-const value1 = parseInt(prompt('값을 입력하세요'));
+const value1 = parseInt(prompt('값을 입력하세요'))
 const oper = prompt('부호를 입력하세요')
-const value2 = parseInt(prompt('값을 입력하세요'));
+const value2 = parseInt(prompt('값을 입력하세요'))
 if(oper == '+'){
   alert(value1 + '+' + value2 +'는'+ (value1+value2) + '입니다')
 }else if(oper == '-'){
