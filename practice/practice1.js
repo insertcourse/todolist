@@ -121,6 +121,6 @@ const calculate = (input) => {
     const input = getInput();
     const result = calculate(input);
 
-    if (result !== undefined) {
+    if (!!result) {
     alert(`${input.value1} ${input.sign} ${input.value2}는 ${result}입니다.`);
     }
