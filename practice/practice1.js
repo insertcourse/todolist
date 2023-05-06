@@ -22,36 +22,33 @@
 
 //2단계
 // function input() {
+//     const value1 = parseInt(prompt("계산할 첫 번째 값 입력:"));
+//     const sign = prompt("계산할 부호 입력 (+, -, *, /, %):");
+//     const value2 = parseInt(prompt("계산할 두 번째 값 입력:"));
 
-// const value1 = parseInt(prompt("계산할 첫 번째 값 입력:"));
-// const sign = prompt("계산할 부호 입력 (+, -, *, /, %):");
-// const value2 = parseInt(prompt("계산할 두 번째 값 입력:"));
-
-//     return [value1, sing, value2]; //이것을 해주지 않으면 input함수가 끝나면서 값이 소멸함.(구글링햇습니다..)
+//     return [value1, sign, value2];
 // }
 
-// function calculate(value1, sign, value2) {
+// function calculate() {
+//     const [value1, sign, value2] = input();
 //     let result;
-    
 
-// if (sign === "+") {
-//     result = value1 + value2;
-// } else if (sign=== "-") {
-//     result = value1 - value2;
-// } else if (sign === "*") {
-//     result = value1 * value2;
-// } else if (sign === "/") {
-//     result = value1 / value2;
-// } else if (sign === "%") {
-//     result = value1 % value2;
-// }
+//     if (sign === "+") {
+//         result = value1 + value2;
+//     } else if (sign === "-") {
+//         result = value1 - value2;
+//     } else if (sign === "*") {
+//         result = value1 * value2;
+//     } else if (sign === "/") {
+//         result = value1 / value2;
+//     } else if (sign === "%") {
+//         result = value1 % value2;
+//     }
 
-// alert(`${value1}${sign}${value2}는 ${result}입니다.`);
+//     alert(`${value1}${sign}${value2}는 ${result}입니다.`);
 // }
 
 // calculate();
-
-
 
 
 
