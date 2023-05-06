@@ -1,14 +1,26 @@
 <!DOCTYPE html>
 <html lang="ko">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>투두리스트</title>
-</head>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+  </head>
 
-<body>
-</body>
-
+  <body>
+    <div id="container">
+      <div id="header">
+        <span class="title">심심한 나의 투두투두 리슷흔</span>
+        <div id="input">
+            <input type="date" id="date"/>
+            <input type="text" id="todo"/>
+            <input type="button" value="추가하기" onclick="addTodo()"/>
+        </div>
+        <div class=".hr"></div>
+      </div>
+        <div id="boxes"></div>
+    </div>
+  </body>
 </html>
