@@ -324,26 +324,27 @@ console.log(ubin.age + sewon.grade) // 20
 밑의 코드들은 직접 정답을 맞춰봅시다!
 
 ```js
-const H1 = 21
+const H1 = 21 
 const H2 = 5 + H1
 
 if (H1 <= 20) {
-	console.log('A')
+	console.log('A') 
 } else if (H1 > 20 && H1 < 25) {
 	console.log('B')
 } else {
 	console.log('C')
 }
+//B
 
-if (H2 == 26 || H2 == 21) {
+if (H2 === 26 || H2 === 21) {
 	console.log('D')
 }
-
+//D
 for (let i = 0; i < 8; i++) {
 	console.log(i)
 }
 ```
-
+//7
 ### 템플릿 리터럴
 
 좋아요. 마지막으로 하나만 더 배워봅시다. 바로 템플릿 리터럴이라는 친구입니다.  
