@@ -3,3 +3,120 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+#container{
+    width: 1200px;
+    margin: 20px auto;
+}
+
+/*header*/
+#header{
+    width: 100%;
+	height: 120px;
+    background-color: rgb(74, 18, 255);
+}
+.title{
+	margin-left: 450px;
+	color: white;
+}
+.exp{ /*explanation : 설명*/
+	color: bisque;
+	margin-left: 435px;
+}
+
+
+/*nav*/
+#nav{
+	background-color: aqua;
+}
+.CheerMassage{
+	margin-top: 20px;
+	margin-left: 20px;
+}
+.InputMassage{
+	font-weight: bold;
+}
+.cheer{
+	color: gray;
+}
+
+
+/*center*/
+#center{
+	margin-left: 40px;
+}
+.section1{
+	float: left;
+}
+ul{
+	padding: 30px;
+}
+.box{
+	margin-top: 20px; 	
+}
+.Monday{
+	color: red;
+	font-weight: bold;
+	background-color: ivory;
+	text-align: center;
+}
+.Tuesday{
+	color: orange;
+	font-weight: bold;
+	background-color: ivory;
+	text-align: center;
+}
+.Wednesday{
+	color: yellow;
+	font-weight: bold;
+	background-color: ivory;
+	text-align: center;
+}
+.Thursday{
+	color: green;
+	font-weight: bold;
+	background-color: ivory;
+	text-align: center;
+}
+.Friday{
+	color: blue;
+	font-weight: bold;
+	background-color: ivory;
+	text-align: center;
+}
+.Saturday{
+	color: purple;
+	font-weight: bold;
+	background-color: ivory;
+	text-align: center;
+}
+.Sunday{
+	color: pink;
+	font-weight: bold;
+	background-color: ivory;
+	text-align: center;
+}
+#day{
+	width: 600px;
+}
+
+.section2{
+	float: right;
+	display: block;
+	background-color: aquamarine;
+	margin-top: 70px;
+	margin-right: 40px;
+}
+.ach{
+	margin-right: 90px;
+	margin-top: 10px;
+}
+.ach--tittle{
+	text-align: center;
+	font-weight: bold;
+	font-size: 18px;
+}
+li{
+	margin: 20px;
+}
+
+
