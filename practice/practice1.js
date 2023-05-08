@@ -1,5 +1,5 @@
 const getInput = () => {
-    let cal = {}
+    const cal = {}
     cal.firstValue = parseInt(prompt("처음 값을 입력하세여"))
     cal.op = prompt("연산자을 입력하세여")
     cal.secondValue = parseInt(prompt("두번쨰 값을 입력하세여"))
