@@ -43,7 +43,7 @@ const onClickRemoveHTMLTag = (e) => {
 const getParents = (date) => {
   const ch = document.getElementsByClassName("dates");
   let top = null;
-  for (let a of ch) {
+  for (const a of ch) {
     const pDate = new Date(a.innerText);
     if (date > pDate) {
       top = a.parentElement;
