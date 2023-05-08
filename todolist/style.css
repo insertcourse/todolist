@@ -2,4 +2,53 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-}
+  }
+  
+  #container {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: gainsboro;
+  }
+  
+  #header {
+	width: 100vw;
+	height: 10vh;
+	background-color: dodgerblue;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 15px;
+  }
+  
+  .title {
+	font-size: 25px;
+	font-weight: 800;
+	margin: 5px;
+  }
+  
+  .boxes {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: blue;
+  }
+  
+  .box {
+	margin: 10px;
+	color: white;
+	background-color: cadetblue;
+	width: 75vw;
+	height: 10vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+  }
+  
+  .dates {
+	font-weight: 500;
+	padding: 10px;
+  }
+  
