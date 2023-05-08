@@ -8,7 +8,7 @@ while(n--){
     ApplePay[n].Money = parseInt(prompt("머니"))
     ApplePay[n].sale = prompt("세일 여부")
 }
-for(let ap of ApplePay){
+for(const ap of ApplePay){
     ap.Money = !!ap.Money ? ap.Money : 0
     ap.event  = ap.sale < 20 ? false : true
     if(ap.User === "1") ap.Money = Infinity;
