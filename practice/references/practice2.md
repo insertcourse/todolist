@@ -40,7 +40,7 @@ console.log(1 === 1) // true
 ```js
 const userName = 'ubin'
 
-if (userName.length !== 0) console.log('이름이 입력되지 않았어요.')
+if (userName.length === 0) console.log('이름이 입력되지 않았어요.')
 if (!userName.length) console.log('이름이 입력되지 않았어요.')
 if (!userName) console.log('이름이 입력되지 않았어요.')
 ```
